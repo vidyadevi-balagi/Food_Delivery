@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
 }
-.navbar .logo{
+.navbar.logo{
     width: 150px;
 
 }
@@ -12,7 +12,7 @@
     display: flex;
     list-style: none;
     gap: 20px;
-    color: #495574;
+    color: #49557e;
     font-size: 18px;
 }
 .navbar-right{
@@ -24,7 +24,7 @@
     background: transparent;
     font-size: 16px;
     color: #49557e;
-    border: 1px solid tomato;
+    border: 1px solod tomato;
     padding: 10px 30px;
     border-radius: 50px;
     cursor: pointer;
@@ -32,6 +32,7 @@
 }
 .navbar button:hover{
     background-color: #fff4f2;
+
 }
 .navbar .active{
     padding-bottom: 2px;
@@ -46,8 +47,8 @@
 .navbar-search-icon .dot{
     position: absolute;
     min-width: 10px;
-    min-height: 10px;
-    background-color:tomato;
+    min-height:10px ;
+    background-color: tomato;
     border-radius: 5px;
     top: -8px;
     right: -8px;
